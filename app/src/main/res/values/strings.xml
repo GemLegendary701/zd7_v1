@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Туристическое агентство</string>
+
+    <string name="login_title">Туристическое агентство</string>
+    <string name="login_subtitle">Вход в систему</string>
+    <string name="hint_email">Введите email</string>
+    <string name="hint_password">Введите пароль</string>
+    <string name="label_email">Email:</string>
+    <string name="label_password">Пароль:</string>
+    <string name="label_select_role">Выберите роль:</string>
+    <string name="role_agent">Турагент</string>
+    <string name="role_client">Клиент</string>
+    <string name="button_login">Войти</string>
+    <string name="demo_data">Демо данные:\nТурагент: agent@mail.com / 123456\nКлиент: client@mail.com / 123456</string>
+    <string name="edit_client_title">Редактировать клиента</string>
+    <string name="client_updated">Данные клиента обновлены</string>
+    <string name="tour_list_title">Доступные туры</string>
+    <string name="search_hint">Поиск тура...</string>
+    <string name="button_search">найти</string>
+    <string name="button_add_tour">Добавить тур</string>
+    <string name="nav_tours">Туры</string>
+    <string name="nav_clients">Клиенты</string>
+
+    <string name="tour_detail_title">Название тура</string>
+    <string name="label_country">Страна:</string>
+    <string name="label_description">Описание:</string>
+    <string name="label_dates">Даты:</string>
+    <string name="label_price">Цена:</string>
+    <string name="status_available">Доступен</string>
+    <string name="button_book">Забронировать</string>
+    <string name="button_edit">Редактировать</string>
+
+    <string name="client_list_title">Клиенты</string>
+    <string name="button_add_client">Добавить</string>
+
+    <string name="client_detail_title">Профиль клиента</string>
+    <string name="label_name">ФИО:</string>
+    <string name="label_email_colon">Email:</string>
+    <string name="label_phone">Телефон:</string>
+    <string name="label_discount">Скидка:</string>
+    <string name="client_orders_title">Заказы клиента</string>
+    <string name="button_edit_client">Редактировать</string>
+    <string name="button_new_order">Новый заказ</string>
+
+    <string name="item_tour_name">Название тура</string>
+    <string name="item_country">Страна:</string>
+    <string name="item_dates">Даты:</string>
+    <string name="item_price">Цена:</string>
+    <string name="item_client_name">ФИО клиента</string>
+    <string name="item_client_email">Email:</string>
+    <string name="item_client_phone">Телефон:</string>
+    <string name="item_discount">Скидка: 0%</string>
+    <string name="item_order_tour">Название тура</string>
+    <string name="item_order_date">Дата заказа:</string>
+    <string name="item_order_price">Стоимость:</string>
+    <string name="status_new">Новый</string>
+</resources>

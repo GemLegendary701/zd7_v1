@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Название тура:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editTourNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:hint="Введите название"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Код страны:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editTourCountryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:hint="Например: TR, IT, JP"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Описание:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editTourDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="80dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:hint="Опишите тур"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:gravity="top"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Цена (₽):"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editTourPriceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:hint="Например: 45000"
+        android:inputType="numberDecimal"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray" />
+
+</LinearLayout>

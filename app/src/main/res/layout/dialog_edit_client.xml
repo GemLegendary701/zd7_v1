@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ФИО клиента:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editClientNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:hint="Введите ФИО"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editClientEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:inputType="textEmailAddress"
+        android:hint="client@example.com"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Телефон:"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editClientPhoneText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:inputType="phone"
+        android:hint="+7 (999) 123-45-67"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Скидка (%):"
+        android:textColor="@color/text_black"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <EditText
+        android:id="@+id/editClientDiscountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:background="@color/edittext_background"
+        android:padding="12dp"
+        android:inputType="number"
+        android:hint="0"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_gray" />
+
+</LinearLayout>
